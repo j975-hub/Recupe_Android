@@ -11,4 +11,8 @@ public class PageObjectManager {
         SignInPage signInPage = new SignInPage(driver);
         return  signInPage;
     }
+    public HomePage homePage(){
+        HomePage homePage = new HomePage(driver);
+        return homePage;
+    }
 }
